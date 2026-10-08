@@ -1,0 +1,232 @@
+{
+  "title": "Minute Cryptic",
+  "author": "By Ananya Ghadge",
+  "clues": [
+    {
+      "clue": "Meat to rearranged for an evil fruit in a curry (6)",
+      "answer": "Tomate",
+      "hints": {
+        "definition": {
+          "highlight": "an evil fruit in a curry",
+          "text": "Our definition here is “an evil fruit in a curry”"
+        },
+        "indicator": {
+          "highlight": "rearranged",
+          "text": "Our indicator here is “rearranged” indicating our clue is an anagram wordplay"
+        },
+        "fodder": {
+          "highlight": "Meat to",
+          "text": "Our fodder here is “Meat to” which is to be manipulated guided by the indicator."
+        }
+      },
+      "reveal": {
+        "image": "images/tomate.png",
+        "writeup": "The evil tomate"
+      }
+    },
+    {
+      "clue": "Ending of the queen after hall and debt; a spooky night (9)",
+      "answer": "Halloween",
+      "hints": {
+        "definition": {
+          "highlight": "a spooky night",
+          "text": "Our definition here is “a spooky night”"
+        },
+        "indicator": {
+          "highlight": "ending",
+          "text": "Our indicator here is “ending”, telling us to take the last letters of the fodder around"
+        },
+        "fodder": {
+          "highlight": ["queen", "hall", "debt"],
+          "text": "Our fodder here is “queen”, “hall” and “debt”, we have to use some parts of some of the fodder as guided by the indicator and use a synonym for some fodder."
+        }
+      },
+      "reveal": {
+        "image": "images/halloween.png",
+        "writeup": "Best Night Ever >.<"
+      }
+    },
+    {
+      "clue": "Bed resting between the sweet coats to switch in get-up (5)",
+      "answer": "Scott",
+      "hints": {
+        "definition": {
+          "highlight": "switch in get-up",
+          "text": "Our definition here is “switch in get-up”"
+        },
+        "indicator": {
+          "highlight": ["resting between", "coats"],
+          "text": "Our indicators here are “resting between”, meaning one fodder goes inside another, and “coats”, meaning the outer letters of a neighbouring fodder."
+        },
+        "fodder": {
+          "highlight": ["bed", "sweet"],
+          "text": "Our fodder here is “bed” and “sweet”, we have to use select certain parts of one fodder according to the indicator and use the synonym of other fodder."
+        }
+      },
+      "reveal": {
+        "image": "images/scott.png",
+        "writeup": ":)"
+      }
+    },
+    {
+      "clue": "Time to succeed, one of a pair (4)",
+      "answer": "Twin",
+      "hints": {
+        "definition": {
+          "highlight": "one of a pair",
+          "text": "Our definition here is “one of a pair”"
+        },
+        "indicator": {
+          "highlight": "to",
+          "text": "Our indicator here is “to”, indicating us to join the fodder together"
+        },
+        "fodder": {
+          "highlight": ["Time", "succeed"],
+          "text": "Our fodder here is “time” and “succeed”, use synonyms of the fodder and use other fodder as indicated"
+        }
+      },
+      "reveal": {
+        "image": "images/twin.png",
+        "writeup": "manuvind twin"
+      }
+    },
+    {
+      "clue": "Winner with an A, blooms with yellow heart (6)",
+      "answer": "Champa",
+      "hints": {
+        "definition": {
+          "highlight": "blooms with yellow heart",
+          "text": "Our definition here is “blooms with yellow heart”"
+        },
+        "indicator": {
+          "highlight": "with",
+          "text": "Our indicator here is “with”, telling us to join the two parts together"
+        },
+        "fodder": {
+          "highlight": ["Winner", "A"],
+          "text": "Our fodder here is “winner” and “A”, use the synonym for the fodder."
+        }
+      },
+      "reveal": {
+        "image": "images/champa.png",
+        "writeup": "Love putting them in your hair"
+      }
+    },
+    {
+      "clue": "Sweet’s opening with a bite; mid-smile move (7)",
+      "answer": "Scrunch",
+      "hints": {
+        "definition": {
+          "highlight": "mid-smile move",
+          "text": "Our definition here is “mid-smile move”"
+        },
+        "indicator": {
+          "highlight": ["opening", "with"],
+          "text": "Our indicator here are “opening” and “with”, the indicators guides us to use a selection of a fodder, and to join some fodder."
+        },
+        "fodder": {
+          "highlight": ["Sweet’s", "a bite"],
+          "text": "Our fodder here is “sweet’s” and “bite”, use the fodder as guided by the indicator."
+        }
+      },
+      "reveal": {
+        "image": "images/scrunch.png",
+        "writeup": "Cutest thing ever :3"
+      }
+    },
+    {
+      "clue": "That cold month decay drops offs, glowed the ember (8)",
+      "answer": "December",
+      "hints": {
+        "definition": {
+          "highlight": "That cold month",
+          "text": "Our definition here is “that cold month”"
+        },
+        "indicator": {
+          "highlight": "drops offs",
+          "text": "Our indicator here is “drops offs”, telling us to remove some parts of the fodder."
+        },
+        "fodder": {
+          "highlight": ["decay", "ember"],
+          "text": "Our fodder here is “decay” and “ember”"
+        }
+      },
+      "reveal": {
+        "image": "images/december.png",
+        "writeup": "Fell for you"
+      }
+    },
+    {
+      "clue": "First dessert: frozen water puts on lotion (3, 5)",
+      "answer": "Ice Cream",
+      "hints": {
+        "definition": {
+          "highlight": "First dessert",
+          "text": "Our definition here is “First dessert”"
+        },
+        "indicator": {
+          "highlight": "puts on",
+          "text": "Our indicator here is “puts on”, telling us to place one part next to the other"
+        },
+        "fodder": {
+          "highlight": ["frozen water", "lotion"],
+          "text": "Our fodder here is “frozen water” and “lotion”, use synonym of the fodder"
+        }
+      },
+      "reveal": {
+        "image": "images/icecream.png",
+        "writeup": "Add your ice cream writeup here."
+      }
+    },
+    {
+      "clue": "Twenty-four hours plus 1; very first beginning (3, 3)",
+      "answer": "Day One",
+      "hints": {
+        "definition": {
+          "highlight": "very first beginning",
+          "text": "Our definition here is “very first beginning”"
+        },
+        "indicator": {
+          "highlight": "plus",
+          "text": "Our indicator here is “plus”, telling us to add two parts together"
+        },
+        "fodder": {
+          "highlight": ["Twenty-four hours", "1"],
+          "text": "Our fodder here is “twenty-four hours” and “1”"
+        }
+      },
+      "reveal": {
+        "image": "images/dayone.png",
+        "writeup": "<3"
+      }
+    },
+    {
+      "clue": "Picture steps took around one (6)",
+      "answer": "Movies",
+      "hints": {
+        "definition": {
+          "highlight": "Picture",
+          "text": "Our definition here is “Picture”"
+        },
+        "indicator": {
+          "highlight": "around",
+          "text": "Our indicator here is “around”, telling us one part wraps around another"
+        },
+        "fodder": {
+          "highlight": ["steps", "one"],
+          "text": "Our fodder here is “steps” and “one”"
+        }
+      },
+      "reveal": {
+        "image": "images/movies.png",
+        "writeup": "Bestest date idea ever!!"
+      }
+    }
+  ],
+  "finale": {
+    "heading": "Good one!",
+    "image": "images/birthday.png",
+    "message": "Hope you had fun playing that",
+    "banner": "HAPPY BIRTHDAY"
+  }
+}

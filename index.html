@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Minute Cryptic</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Decorative stars (pure CSS/HTML, no image files) -->
+    <div class="stars" aria-hidden="true">
+      <span class="star star-cyan star-a"></span>
+      <span class="star star-yellow star-b"></span>
+      <span class="star star-cyan star-c"></span>
+      <span class="star star-peach star-d"></span>
+      <span class="star star-yellow star-e"></span>
+      <span class="star star-cyan star-f"></span>
+      <span class="star star-yellow star-g"></span>
+      <span class="star star-cyan star-h"></span>
+    </div>
+
+    <main id="app" class="app">
+      <!-- Shown if clues.json cannot be loaded or parsed -->
+      <p id="load-error" class="load-error" hidden>
+        Couldn't load the clues, check clues.json
+      </p>
+
+      <!-- ===================== CLUE SCREEN ===================== -->
+      <section id="screen-clue" class="screen" hidden>
+        <article class="card clue-card">
+          <h1 id="clue-progress" class="card-title">Clue 01</h1>
+          <p id="clue-text" class="clue-text"></p>
+          <div id="hint-extras" class="hint-extras"></div>
+          <p id="clue-author" class="byline"></p>
+        </article>
+
+        <div id="answer-row" class="answer-row" aria-label="Answer boxes"></div>
+
+        <!-- Hidden input so typing works immediately (and on phones) -->
+        <input
+          id="type-catcher"
+          class="type-catcher"
+          type="text"
+          autocomplete="off"
+          autocapitalize="characters"
+          autocorrect="off"
+          spellcheck="false"
+          aria-label="Type your answer"
+        />
+
+        <div class="button-row">
+          <button type="button" id="btn-hints" class="btn btn-cyan">hints</button>
+          <button type="button" id="btn-check" class="btn btn-mint">check</button>
+        </div>
+
+        <div id="hint-menu" class="hint-menu" hidden>
+          <div class="hint-menu-header">
+            <span>Select a hint</span>
+            <button type="button" id="btn-hint-close" class="icon-close" aria-label="Close hints">
+              ×
+            </button>
+          </div>
+          <button type="button" class="hint-option" data-hint="fodder">show fodder</button>
+          <button type="button" class="hint-option" data-hint="indicator">show indicators</button>
+          <button type="button" class="hint-option" data-hint="definition">show definition</button>
+        </div>
+      </section>
+
+      <!-- ===================== REVEAL SCREEN ===================== -->
+      <section id="screen-reveal" class="screen" hidden>
+        <article class="card clue-card">
+          <h1 id="reveal-progress" class="card-title">Clue 01</h1>
+          <p id="reveal-clue-text" class="clue-text"></p>
+          <p id="reveal-author" class="byline"></p>
+        </article>
+
+        <div id="reveal-answer-row" class="answer-row answer-row-solved"></div>
+
+        <article class="card reveal-card">
+          <h2 class="card-title">You got it!</h2>
+          <img id="reveal-image" class="photo" alt="" />
+          <p id="reveal-writeup" class="writeup"></p>
+          <button type="button" id="btn-next" class="btn btn-mint">next</button>
+        </article>
+      </section>
+
+      <!-- ===================== FINAL SCREEN ===================== -->
+      <section id="screen-final" class="screen" hidden>
+        <article class="card finale-card">
+          <h1 id="finale-heading" class="card-title"></h1>
+          <p id="finale-message" class="finale-message"></p>
+          <button type="button" id="btn-play-again" class="btn btn-mint">play again!</button>
+        </article>
+
+        <div id="finale-banner" class="answer-row" aria-hidden="true"></div>
+        <img id="finale-image" class="photo finale-photo" alt="" />
+      </section>
+    </main>
+
+    <!-- Play Again confirmation (Yes / Cancel, not the browser's OK/Cancel) -->
+    <div id="confirm-modal" class="modal" hidden>
+      <div class="modal-card card" role="dialog" aria-labelledby="confirm-text">
+        <p id="confirm-text">Start over? This will reset your progress.</p>
+        <div class="button-row">
+          <button type="button" id="btn-confirm-yes" class="btn btn-mint">Yes</button>
+          <button type="button" id="btn-confirm-cancel" class="btn btn-cyan">Cancel</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
